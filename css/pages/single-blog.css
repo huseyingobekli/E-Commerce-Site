@@ -1,0 +1,128 @@
+.single-blog {
+  margin-bottom: 40px;
+}
+
+.single-blog .container figure img {
+  width: 100%;
+}
+
+.single-blog article {
+  margin: 40px 0;
+}
+
+.single-blog .single-blog-wrapper .blog-meta {
+  display: flex;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+.blog-meta .blog-fate {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin: 0px 10px;
+}
+
+.single-blog-wrapper .blog-meta .blog-fate::before {
+  content: "";
+  width: 10px;
+  height: 1px;
+  background-color: black;
+}
+.single-blog-wrapper .blog-meta .blog-fate::after {
+  content: "";
+  width: 10px;
+  height: 1px;
+  background-color: black;
+}
+
+.blog-meta .blog-tags {
+  font-weight: 600;
+}
+
+.single-blog .blog-tittle {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.single-blog-wrapper .blog-content p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #75767c;
+}
+
+.blog-content blockquote {
+  margin: 20px 0;
+  padding: 20px 30px 12px 50px;
+  border-left: 4px solid #dee0ea;
+}
+
+.blog-content blockquote p {
+  margin: 0 !important;
+}
+
+.product-thumb {
+  position: relative;
+}
+
+.product-thumb .glide__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.product-thumb .glide__arrows button {
+  background-color: transparent;
+}
+
+.product-thumb .glide__arrows i {
+  font-size: 40px;
+}
+
+.product-thumb .glide__arrows .glide__arrow--left {
+  left: -40px;
+}
+
+.product-thumb .glide__arrows .glide__arrow--right {
+  right: -40px;
+}
+@media (max-width: 992px) {
+  .product-thumb .glide__arrows i {
+    font-size: 20px;
+  }
+  .product-thumb .glide__arrows .glide__arrow--left {
+    left: -20px;
+  }
+
+  .product-thumb .glide__arrows .glide__arrow--right {
+    right: -20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-thumb .glide__arrows i {
+    font-size: 30px;
+  }
+  .product-thumb .glide__arrows .glide__arrow--left {
+    left: -30px;
+  }
+
+  .product-thumb .glide__arrows .glide__arrow--right {
+    right: -30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .product-thumb .glide__arrows i {
+    font-size: 40px;
+  }
+  .product-thumb .glide__arrows .glide__arrow--left {
+    left: 0;
+  }
+
+  .product-thumb .glide__arrows .glide__arrow--right {
+    right: 0;
+  }
+}

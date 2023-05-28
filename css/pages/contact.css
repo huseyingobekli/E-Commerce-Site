@@ -1,0 +1,92 @@
+.contact .contact-bottom {
+  margin: 30px 0;
+}
+
+.contact-bottom .contact-tittles {
+  width: 75%;
+}
+
+.contact-bottom .contact-tittles h4 {
+  color: #e51414;
+  font-weight: 500;
+}
+
+.contact-bottom .contact-tittles h2 {
+  font-weight: 600;
+  font-size: 40px;
+}
+.contact-bottom .contact-tittles p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.contact-bottom .contact-elements {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  margin-top: 40px;
+}
+
+.contact-elements .contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.contact-elements .contact-form button {
+  background-color: black;
+  color: #fff;
+}
+
+.contact-elements .contact-form div {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(50% - 10px);
+  row-gap: 4px;
+}
+
+.contact-elements .contact-form div span {
+  color: #e51414;
+}
+
+.contact-elements .contact-form div:nth-child(3),
+.contact-elements .contact-form div:nth-child(4) {
+  flex-basis: 100%;
+}
+
+.contact-bottom .contact-elements .contact-info {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  font-size: 14px;
+}
+
+.contact-info .contact-info-texts {
+  display: flex;
+  flex-direction: column;
+}
+.contact-info .contact-info-texts .contact-street {
+  margin: 15px 0;
+}
+
+.contact-info-item .contact-date {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .contact-bottom .contact-elements {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .contact-bottom .contact-tittles {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-elements .contact-form {
+    flex-direction: column;
+  }
+}

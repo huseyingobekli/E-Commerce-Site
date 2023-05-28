@@ -1,0 +1,56 @@
+.campaigns .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.campaigns .container .campaigns-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.campaigns .campaigns-item {
+  padding: 70px 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  width: 100%;
+  flex: 1;
+}
+
+.campaigns .campaigns-item .campaigns-tittle {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.campaigns .campaigns-item .campaigns-desc {
+  margin: 40px 0;
+  font-size: 14px;
+}
+
+.campaigns .campaigns-wrapper:nth-child(1) .campaigns-item:nth-child(1) {
+  background-image: url(../../img/campaigns/banner1.png);
+}
+
+.campaigns .campaigns-wrapper:nth-child(1) .campaigns-item:nth-child(2) {
+  background-image: url(../../img/campaigns/banner2.png);
+}
+.campaigns .campaigns-wrapper:nth-child(2) .campaigns-item:nth-child(1) {
+  background-image: url(../../img/campaigns/banner3.png);
+  flex: 5;
+}
+
+.campaigns .campaigns-wrapper:nth-child(2) .campaigns-item:nth-child(2) {
+  background-image: url(../../img/campaigns/banner4.png);
+  flex: 3;
+}
+
+@media (max-width: 768px) {
+  .campaigns .campaigns-item {
+    flex: unset !important;
+  }
+}

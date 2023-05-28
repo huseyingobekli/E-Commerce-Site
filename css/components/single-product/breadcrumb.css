@@ -1,0 +1,22 @@
+.single-product .breadcrumb .breadcrumb-list {
+  display: flex;
+  gap: 10px;
+}
+
+.breadcrumb .breadcrumb-list .breadcrumb-list-item {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.breadcrumb .breadcrumb-list .breadcrumb-list-item a:hover {
+  border-bottom: 1px solid #000;
+}
+
+.breadcrumb .breadcrumb-list .breadcrumb-list-item:not(:last-child)::after {
+  content: "/";
+  font-size: 10px;
+  color: #dee0ea;
+}

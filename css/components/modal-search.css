@@ -1,0 +1,150 @@
+.modal-search {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+.modal-search.active {
+  visibility: visible;
+}
+
+.modal-search::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+  position: fixed;
+}
+
+.modal-wrapper {
+  background-color: #fff;
+  width: 100%;
+  max-width: 800px;
+  z-index: 100;
+  position: fixed;
+  padding: 30px;
+}
+
+.modal-search .modal-tittle {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.modal-search .modal-text {
+  font-size: 14px;
+  color: #7a7a7a;
+  border-bottom: 1px solid #dee0ea;
+  padding-bottom: 15px;
+}
+
+.modal-search .search-form {
+  margin-top: 15px;
+  display: flex;
+  position: relative;
+}
+
+.modal-search .search-form input {
+  width: 100%;
+  max-height: 42px;
+  border-color: #dee0ea !important;
+}
+.modal-search .search-form button {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dee0ea;
+}
+
+.modal-search .search-form button i {
+  font-size: 18px;
+  color: #7a7a7a;
+}
+
+.search-results {
+  margin-top: 15px;
+}
+
+.modal-search .search-heading {
+  background-color: #f9f9f9;
+  border: 1px solid #dee0ea;
+  padding: 15px;
+}
+
+.modal-search .search-heading h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.modal-search .results {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-left: 1px solid #dee0ea;
+}
+
+.modal-search .results .result-item {
+  display: flex;
+  column-gap: 15px;
+  padding: 15px;
+  align-items: center;
+  border-right: 1px solid #dee0ea;
+  border-bottom: 1px solid #dee0ea;
+  transition: 0.2s ease background-color;
+}
+
+.modal-search .results .result-item:hover {
+  background-color: #f9f9f9;
+}
+
+.result-item .search-thumb {
+  width: 100%;
+  max-width: 65px;
+}
+
+.results .search-info {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-info .search-sku {
+  font-size: 14px;
+  color: #7a7a7a;
+  margin: 2px 0;
+}
+
+.search-info .search-price {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.modal-wrapper .bi-x-circle {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .modal-wrapper {
+    max-width: 370px;
+  }
+  .modal-search .results {
+    grid-template-columns: 1fr;
+  }
+}

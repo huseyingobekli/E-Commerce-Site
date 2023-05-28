@@ -1,0 +1,29 @@
+.section-tittle {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.section-tittle h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.categories {
+  margin-top: 40px;
+}
+
+.categories .category-list {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .products .product-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.products {
+  margin-bottom: 40px;
+}
