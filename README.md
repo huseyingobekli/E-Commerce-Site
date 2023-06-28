@@ -12,7 +12,7 @@
 </br></br>
 <h2> ✨ About The Project</h2>
 </br>
-- Designing and publishing an e-commerce site with simple features
+- Designing and publishing an e-commerce site with simple features like searching and listing product, cart system and pop-up.
  <h2></h2>
 
 <h2> 📌 Build With</h2>
