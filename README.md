@@ -7,7 +7,8 @@
 
 </br>
 
-![e-commerce](https://github.com/huseyingobekli/E-Commerce-Site/assets/117904152/34566efc-4030-4843-a33f-f7edff455bae)
+
+![e-commerce](https://github.com/huseyingobekli/E-Commerce-Site/assets/117904152/913188bb-d735-4c33-9e2e-276e698de27d)
  <h2 align="center"><a href="https://limon-e-commerce-site.netlify.app">Demo Website</a>
 </br></br>
 <h2> ✨ About The Project</h2>
